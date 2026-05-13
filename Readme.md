@@ -17,7 +17,6 @@ This project is a web scraper designed to extract company information from the G
   - `curl_cffi`
   - `bs4`
   - `pandas`
-  - `argparse`
 
 Install the required libraries using pip:
 
@@ -28,8 +27,9 @@ pip install curl_cffi beautifulsoup4 pandas
 
 Run the script with the required arguments to scrape data:
 
+```bash
 python [scraper.py](http://_vscodecontentref_/1) --category_id <CATEGORY_ID> [--service_id <SERVICE_ID>] [--industry_id <INDUSTRY_ID>] [--limit <LIMIT>]*
-
+```
 Arguments
 - --category_id: (Required) The ID of the category to scrape. Refer to categories.json for valid IDs.
 - --service_id: (Optional) The ID of the service to filter by. Refer to services.json for valid IDs.
@@ -37,7 +37,9 @@ Arguments
 - --limit: (Optional) The maximum number of companies to scrape.
 
 Example
+```bash
 python [scraper.py](http://_vscodecontentref_/2) --category_id 1 --service_id 2 --industry_id 3 --limit 50
+```
 
 ## Output
 
