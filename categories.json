@@ -1,0 +1,9 @@
+[
+    {"id": 1, "name": "Mobile App Development", "url": "/directory/platform/app-development"},
+    {"id": 2, "name": "Web Development", "url": "/directory/cms/top-website-development-companies"},
+    {"id": 3, "name": "Software Development", "url": "/directory/languages/top-software-development-companies"},
+    {"id": 4, "name": "E-commerce Development", "url": "/ecommerce-development-companies"},
+    {"id": 5, "name": "Digital Marketing", "url": "/directory/marketing-services/top-digital-marketing-companies"},
+    {"id": 6, "name": "Web Designing (UI/UX)", "url": "/directory/platforms/top-web-design-companies"},
+    {"id": 7, "name": "IT Services", "url": "/it-services"}
+]
