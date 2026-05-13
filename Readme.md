@@ -28,7 +28,7 @@ pip install curl_cffi beautifulsoup4 pandas
 Run the script with the required arguments to scrape data:
 
 ```bash
-python [scraper.py](http://_vscodecontentref_/1) --category_id <CATEGORY_ID> [--service_id <SERVICE_ID>] [--industry_id <INDUSTRY_ID>] [--limit <LIMIT>]*
+python scraper.py --category_id <CATEGORY_ID> [--service_id <SERVICE_ID>] [--industry_id <INDUSTRY_ID>] [--limit <LIMIT>]
 ```
 Arguments
 - --category_id: (Required) The ID of the category to scrape. Refer to categories.json for valid IDs.
@@ -38,7 +38,7 @@ Arguments
 
 Example
 ```bash
-python [scraper.py](http://_vscodecontentref_/2) --category_id 1 --service_id 2 --industry_id 3 --limit 50
+python scraper.py --category_id 1 --service_id 2 --industry_id 3 --limit 50
 ```
 
 ## Output
