@@ -1,8 +1,8 @@
 # GoodFirms Scraper
 
-## About the Project
+## About
 
-This project is a web scraper designed to extract company information from the GoodFirms website based on specified categories, services, and industries. It leverages Python and various libraries to fetch and process data efficiently.
+This is a web scraper designed to extract company information from the GoodFirms website based on specified categories, services, and industries. It leverages Python and various libraries to fetch and process data efficiently.
 
 ### Key Features
 
