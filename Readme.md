@@ -1,9 +1,7 @@
 
-<h1 align="center"><img src="icon.png" alt="logo" style="width: 50px;" width="50" style="margin-left:10px"/> GoodFirms Scraper</h1>
+<h1 align="center"> GoodFirms Scraper</h1>
 <div align="center" style="margin-bottom:15px;">
     <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="license-AGPLv3-blue" style="margin-left:10px"/>
-    <img src="https://img.shields.io/badge/docker-supported-blue" alt="license-AGPLv3-blue" style="margin-left:10px"/>
-    <img src="https://img.shields.io/badge/Supabase-000000?logo=supabase" alt="license-AGPLv3-blue" style="margin-left:10px"/>
 </div>
 
 ## About
