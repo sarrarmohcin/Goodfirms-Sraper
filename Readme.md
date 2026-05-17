@@ -49,6 +49,17 @@ python scraper.py --category_id <CATEGORY_ID> [--service_id <SERVICE_ID>] [--ind
 python scraper.py --category_id 1 --service_id 2 --industry_id 3 --limit 50
 ```
 
+
+
+### Output
+
+The scraped data is saved into a CSV file named `goodfirms_companies.csv` in the current directory.
+
+### Additional Notes
+- The script introduces random delays between requests to avoid detection as a bot.
+- Ensure that the `categories.json`, `services.json`, and `industries.json` files are updated to reflect the latest data from the GoodFirms website.
+
+
 ## 📬 Contact
 
 Feel free to reach out:
@@ -59,12 +70,3 @@ Feel free to reach out:
 ## Licence
 <img src="https://img.shields.io/badge/license-AGPL--v3-blue" alt="license-AGPLv3-blue" style="margin-left:10px"/>
 
-
-
-### Output
-
-The scraped data is saved into a CSV file named `goodfirms_companies.csv` in the current directory.
-
-### Additional Notes
-- The script introduces random delays between requests to avoid detection as a bot.
-- Ensure that the `categories.json`, `services.json`, and `industries.json` files are updated to reflect the latest data from the GoodFirms website.
